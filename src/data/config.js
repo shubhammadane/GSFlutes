@@ -27,6 +27,16 @@ export const SITE_CONFIG = {
       college: "Government College of Engineering, Chhatrapati Sambhajinagar",
       degree: "M.Tech CSE",
       isPrimaryWhatsApp: false
+    },
+    {
+      name: "Ajay Chandanshive",
+      role: "Co-Founder",
+      phone: "+91 92090 69350",
+      rawPhone: "919209069350",
+      education: "Disciple of Pt. Prashant Agnihotri Sir",
+      college: "Indian Classical Bansuri Parampara",
+      degree: "Classical Flautist",
+      isPrimaryWhatsApp: false
     }
   ],
 

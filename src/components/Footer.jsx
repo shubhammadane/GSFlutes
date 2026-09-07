@@ -57,7 +57,7 @@ export default function Footer() {
             </p>
 
             <div className="footer-founders-note">
-              <strong>Founded by:</strong> Shubham Savita Sanjay Madane (M.Tech CSE) &amp; Dr. Ghanshyam Jagtap (BAMS).
+              <strong>Founded by:</strong> Shubham Savita Sanjay Madane (M.Tech CSE), Dr. Ghanshyam Jagtap (BAMS) &amp; Ajay Chandanshive (Disciple of Pt. Prashant Agnihotri Sir).
             </div>
           </div>
 
