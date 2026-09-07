@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#1C1009" stroke="#C5A059" stroke-width="2.5"/>
+  <!-- Bansuri Body -->
+  <path d="M14 44 L48 18" stroke="#E5C378" stroke-width="5" stroke-linecap="round"/>
+  <!-- Thread Bindings -->
+  <path d="M18 41 L19.5 39.5" stroke="#9E2A2B" stroke-width="6"/>
+  <path d="M28 33.5 L29.5 32" stroke="#9E2A2B" stroke-width="6"/>
+  <path d="M41 23.5 L42.5 22" stroke="#9E2A2B" stroke-width="6"/>
+  <!-- Finger Holes -->
+  <circle cx="24" cy="36.5" r="1.6" fill="#1C1009"/>
+  <circle cx="30" cy="32" r="1.6" fill="#1C1009"/>
+  <circle cx="35" cy="28" r="1.6" fill="#1C1009"/>
+  <circle cx="40" cy="24" r="1.6" fill="#1C1009"/>
+  <!-- Musical note wave -->
+  <path d="M38 14 C42 10 46 16 50 12" stroke="#C5A059" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>

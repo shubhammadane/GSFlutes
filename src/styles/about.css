@@ -1,0 +1,218 @@
+/* About Us Page */
+.about-hero-section {
+  background: linear-gradient(180deg, #F9F5EE 0%, #F3ECDF 100%);
+  padding: 4.5rem 0 3.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+  text-align: center;
+}
+
+/* Brand Story Split */
+.story-split-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.story-image-wrap {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 4px solid #FFFFFF;
+  box-shadow: var(--shadow-xl);
+  position: relative;
+}
+
+.story-image-wrap img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.story-content h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.25;
+}
+
+.story-content p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+
+/* Founders Section */
+.founders-section {
+  background: var(--bg-secondary);
+  padding: 5.5rem 0;
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.founders-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.founder-card {
+  background: var(--bg-surface);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border-subtle);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-base);
+}
+
+.founder-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--border-gold);
+  box-shadow: var(--shadow-xl);
+}
+
+.founder-img-frame {
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  background: #EAE1D5;
+  position: relative;
+}
+
+.founder-img-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  transition: transform var(--transition-slow);
+}
+
+.founder-card:hover .founder-img-frame img {
+  transform: scale(1.05);
+}
+
+.founder-card-body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.founder-name {
+  font-size: 1.5rem;
+  font-family: var(--font-serif);
+  color: var(--text-main);
+  margin-bottom: 0.3rem;
+}
+
+.founder-role-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-amber);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.25rem;
+}
+
+.founder-education-box {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+  border-left: 3px solid var(--color-gold);
+}
+
+.edu-degree {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.edu-college {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-top: 0.35rem;
+  line-height: 1.4;
+}
+
+.founder-bio {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+}
+
+.founder-connect-row {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.founder-phone-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.founder-phone-link:hover {
+  color: var(--color-amber);
+}
+
+/* Timeline / Story Milestones */
+.story-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  max-width: 800px;
+  margin: 3rem auto 0;
+  padding-left: 2rem;
+  border-left: 2px solid var(--color-gold);
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -2.6rem;
+  top: 4px;
+  width: 18px;
+  height: 18px;
+  border-radius: var(--radius-full);
+  background: var(--color-amber);
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 0 0 2px var(--color-gold);
+}
+
+.timeline-item h4 {
+  font-size: 1.3rem;
+  font-family: var(--font-serif);
+  color: var(--text-main);
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 900px) {
+  .story-split-section {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .founders-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
